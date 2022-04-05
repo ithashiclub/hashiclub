@@ -32,7 +32,7 @@ function Navbar() {
                         
                     </div>
                     <div className="SocialLinks">
-                    <a href="https://twitter.com/hashi.club"><TwitterIcon className="iconImage" /> </a> <img src={DiscordImage} width={25} height={18} alt="discordImage" className="iconImage" data-tip="Stay tunned." ></img> <img src={OpenSeaImage} width={21} height={21} alt="discordImage" className="iconImage" data-tip="Stay tunned." ></img>
+                    <a href="https://twitter.com/ClubHashi"><TwitterIcon className="iconImage" /> </a> <img src={DiscordImage} width={25} height={18} alt="discordImage" className="iconImage" data-tip="Stay tunned." ></img> <img src={OpenSeaImage} width={21} height={21} alt="discordImage" className="iconImage" data-tip="Stay tunned." ></img>
                     </div>
 
                 </div>
@@ -47,7 +47,7 @@ function Navbar() {
                             <CancelIcon />
                         </button>
                        
-                        <div className="footerMenu"> <a href="https://twitter.com/hashi.club"><TwitterIcon className="iconImage" /> </a>
+                        <div className="footerMenu"> <a href="https://twitter.com/ClubHashi"><TwitterIcon className="iconImage" /> </a>
                         <img src={DiscordImage} width={60} height={50} alt="discordImage" className="iconImage" ></img> <img src={OpenSeaImage} width={60} height={60} alt="discordImage" className="iconImage" ></img></div>
 
                     </div>
