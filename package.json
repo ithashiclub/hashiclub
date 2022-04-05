@@ -1,7 +1,7 @@
 {
   "name": "nft",
   "version": "0.1.0",
-  "homepage": "hashiclub.github.io",
+  "homepage": "https://hashiclub.github.io/hashiclub",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
