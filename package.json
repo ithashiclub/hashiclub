@@ -1,7 +1,7 @@
 {
   "name": "nft",
   "version": "0.1.0",
-  "homepage": "https://hashiclub.com/hashiclub/",
+  "homepage": "https://hashiclub.com",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
