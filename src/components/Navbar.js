@@ -27,7 +27,7 @@ function Navbar() {
             <div className="navbar" >
 
                 <div className="NavContainer" >
-                    <Link  to="/"><img className="Logo" src={Logo} alt="description" /></Link>
+                    <Link  to="https://ithashiclub.github.io/hashiclub/"><img className="Logo" src={Logo} alt="description" /></Link>
                     <div className="LinksContainer">
                         
                     </div>
