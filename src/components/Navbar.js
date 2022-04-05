@@ -29,7 +29,7 @@ function Navbar() {
                 <div className="NavContainer" >
                     <Link  to="https://ithashiclub.github.io/hashiclub/"><img className="Logo" src={Logo} alt="description" /></Link>
                     <div className="LinksContainer">
-                        
+                        test
                     </div>
                     <div className="SocialLinks">
                     <a href="https://twitter.com/hashi.club"><TwitterIcon className="iconImage" /> </a> <img src={DiscordImage} width={25} height={18} alt="discordImage" className="iconImage" data-tip="Stay tunned." ></img> <img src={OpenSeaImage} width={21} height={21} alt="discordImage" className="iconImage" data-tip="Stay tunned." ></img>
