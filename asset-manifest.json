@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hashiclub/static/css/main.42cdd9f1.css",
-    "main.js": "/hashiclub/static/js/main.65f8be3c.js",
-    "static/js/787.2cc4d09c.chunk.js": "/hashiclub/static/js/787.2cc4d09c.chunk.js",
-    "static/media/hashi-no-back.png": "/hashiclub/static/media/hashi-no-back.e06fd856d6eef722e383.png",
-    "index.html": "/hashiclub/index.html",
-    "main.42cdd9f1.css.map": "/hashiclub/static/css/main.42cdd9f1.css.map",
-    "main.65f8be3c.js.map": "/hashiclub/static/js/main.65f8be3c.js.map",
-    "787.2cc4d09c.chunk.js.map": "/hashiclub/static/js/787.2cc4d09c.chunk.js.map"
+    "main.css": "/static/css/main.42cdd9f1.css",
+    "main.js": "/static/js/main.7cce7636.js",
+    "static/js/787.2cc4d09c.chunk.js": "/static/js/787.2cc4d09c.chunk.js",
+    "static/media/hashi-no-back.png": "/static/media/hashi-no-back.e06fd856d6eef722e383.png",
+    "index.html": "/index.html",
+    "main.42cdd9f1.css.map": "/static/css/main.42cdd9f1.css.map",
+    "main.7cce7636.js.map": "/static/js/main.7cce7636.js.map",
+    "787.2cc4d09c.chunk.js.map": "/static/js/787.2cc4d09c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42cdd9f1.css",
-    "static/js/main.65f8be3c.js"
+    "static/js/main.7cce7636.js"
   ]
 }
