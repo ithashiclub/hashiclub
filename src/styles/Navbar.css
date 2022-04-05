@@ -1,0 +1,165 @@
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: white;  
+    border-bottom: 2px solid;
+    border-color: rgb(218,165,32);
+    font-weight: bold;;
+  }
+
+  .NavContainer{
+    width: 100%;
+    display:flex;
+    padding: 15px;
+  }
+
+  .navbar .Logo {
+    width: 150px;
+    
+  }
+  .navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+  }
+  .navbar .rightSide svg {/* Tamanho hamburguer */
+    font-size: 40px;
+    margin-right: 30px;
+  }
+
+  .LinksContainer{
+    flex:50%;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    text-align: center;
+    text-transform: uppercase;
+    margin-top:5px;
+    filter: drop-shadow(-1px 2px 1px rgb(207, 205, 205));
+  }
+  .LinksContainer a{
+      margin-left:50px;
+      transition: background-color .3s linear,color .2s linear, border .2s;
+  }
+  .LinksContainer a:hover {
+    color:silver;
+    border-bottom: 4px solid rgb(230, 230, 230);
+  }
+
+  .iconImage :hover{
+    color:rgb(230, 230, 230);
+  }
+  img.iconImage:hover{
+    opacity: 0.5; 
+}
+
+  .rightSide{
+    flex:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .navbar .rightSide button {
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+
+
+  @media only screen and (min-width: 908px) {
+    .navbar .rightSide  {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 907px) {
+    .navbar .LinksContainer {
+      display: none;
+    }
+  
+    .navbar .SocialLinks {
+      display: none;
+    }
+  }
+
+
+  .menuRigth{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vh;
+    text-align: right;
+    padding: 1.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.6); 
+  }
+  
+  .menuRigth a{
+        border-bottom: solid 1px;
+        border-color: azure;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        padding: 1rem 0;
+        letter-spacing: 0.4rem;
+        color:white;
+  }
+
+  .menuRigth button{
+    text-align: right;
+    margin-bottom: 50px;   
+  }
+  
+  .menuRigth a:hover {
+    color:red;
+  }
+ 
+  .navbar #close{
+    display:none;
+}
+
+.footerMenu{
+    color: white;
+    
+}
+.footerMenu img.iconImage{
+  filter:invert(1);
+}
+.footerMenu .iconImage, .footerMenu svg{
+  margin-left: 20px;
+}
+
+.navbar .rightSide .menuRigth svg {/* Tamanho hamburguer */
+    font-size: 70px;
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+
+
+  .SocialLinks{
+    margin-top: 10px;
+    margin-right: 20px;
+    filter: drop-shadow(-1px 2px 1px rgb(207, 205, 205));
+  }
+
+  .SocialLinks .iconImage{
+    margin-bottom: 5px;
+  }
+  .activeLink{
+    opacity: 0.5;
+  }
+
+  img.iconImage{
+    margin-bottom: 2px;
+    margin-right: 4px;
+  }
+  
