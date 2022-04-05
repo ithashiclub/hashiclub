@@ -16,7 +16,7 @@ function App() {
       
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Home}/> 
+          <Route path="https://ithashiclub.github.io/hashiclub/" exact component={Home}/> 
         </Switch>
           
       </Router>
