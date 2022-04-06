@@ -6,8 +6,8 @@
     flex-direction: row;
     position: fixed;
     background-color: white;  
-    border-bottom: 2px solid;
-    border-color: rgb(218,165,32);
+    /*border-bottom: 2px solid;
+    border-color: rgb(218,165,32);*/
     font-weight: bold;;
   }
 
@@ -120,7 +120,7 @@
   }
   
   .menuRigth a:hover {
-    color:red;
+    color:rgb(199, 161, 38);
   }
  
   .navbar #close{
