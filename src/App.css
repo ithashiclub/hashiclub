@@ -4,8 +4,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  font-family: century gothic;
-  ;
+  font-family: century gothic, monospace;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -22,4 +21,49 @@ body{
   .App {
     font-size: 17px;
   }
+}
+
+.heading1{
+  font-size: 110px;
+  line-height: 100%;
+  font-weight: bold;
+}
+.heading2{
+  font-size: 70px;
+  line-height: 100%;
+  font-weight: bold;
+  
+}
+.heading3{
+  font-size: 30px;
+  line-height: 100%;
+  
+}
+.heading4{
+  font-size: 20px;
+  line-height: 100%;
+}
+.color-white{
+  color:white;
+}
+.color-auxiliar{
+  color:darkgrey;
+}
+.color-black{
+  color:black;
+}
+.margin-top-base{
+  margin-top: 15px;
+}
+.color-orange{
+  color: #e2872f;
+}
+.background-color-white{
+  background-color: white;
+}
+.background-orange{
+  background-color:  #e2872f;
+}
+.margin-top-xl{
+  margin-top: 30px;
 }

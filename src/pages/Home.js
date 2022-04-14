@@ -1,16 +1,21 @@
 import React from 'react'
-import BackImage from '../assets/hashi-no-back.png'
+import BackImage from '../assets/backgroundHome.png'
 import '../styles/Home.css'
 
 function Home() {  
   return (
-    <div className="home"  >
+    <div className="home" >
         <div className="homeMain">
+        <div className='homeText'  >
+            <div className="heading1 color-white">The <br></br>People's <br></br>Asset</div> 
+          <div className='color-orange heading3 margin-top-base'>Made by & for the community</div>
+          <div className='color-white heading4 margin-top-base'>HASHI is the first of its kind. <br></br>The pioneer in the future's way of investing.</div>
+          <a href="https://twitter.com/ClubHashi"><div className="background-orange buttonHome">Follow the path</div></a>
+          </div>
           <div className="homecontainer" style={{ backgroundImage: `url(${BackImage})`   }}>  </div>
-          <div className='homeText'>
-            Content to be revealed on 9th April, 7:00 PM (EST).  
-          <div className='textTest'>Stay tunned. </div></div>
         </div>
+          
+          
     </div>
   )
 }
