@@ -29,7 +29,10 @@ function Navbar() {
                 <div className="NavContainer" >
                     <Link  to="/"><img className="Logo" src={Logo} alt="description" /></Link>
                     <div className="LinksContainer">
-                        
+                        <div className='linkNav' data-tip="Comming soon."> DAF </div>
+                        <div className='linkNav' data-tip="Comming soon."> Partners </div>
+                        <div className='linkNav' data-tip="Comming soon."> Portfolio </div>
+                        <a href="mailto:info.hashiclub@gmail.com"><div className='linkMail' data-tip="info.hashiclub@gmail.com"> Become a pioneer </div></a>
                     </div>
                     <div className="SocialLinks">
                     <a href="https://twitter.com/ClubHashi"><TwitterIcon className="iconImage" /> </a> <img src={DiscordImage}  alt="discordImage" className="iconImage" data-tip="Stay tunned." ></img> <img src={OpenSeaImage}  alt="discordImage" className="iconImage" data-tip="Stay tunned." ></img>

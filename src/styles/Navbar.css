@@ -37,16 +37,24 @@
   display: flex;
   align-items: center;
   text-align: center;
-  text-transform: uppercase;
   margin-top:5px;
 }
 .LinksContainer a{
     margin-left:50px;
     transition: background-color .3s linear,color .2s linear, border .2s;
 }
+
+.linkNav{
+  margin-left:50px;
+    transition: background-color .3s linear,color .2s linear, border .2s;
+    color:white;
+}
+.linkNav:hover{
+ color:gray;
+}
 .LinksContainer a:hover {
-  color:silver;
-  border-bottom: 4px solid rgb(230, 230, 230);
+  color:white;
+  
 }
 
 .iconImage :hover{
@@ -167,4 +175,13 @@ img.iconImage{
 }
 .comming-soon{
   line-height: 200%;  
+}
+
+.linkMail{
+  right: 0px;
+  border-radius: 5px;
+  border: solid 1px ;
+  background-color: #f6de28;
+  padding: 0 5px 0px 5px;
+  font-size: 16px;
 }
